@@ -58,7 +58,7 @@
     
     .nav-links .contact-btn {
         background-color: hsl(0, 0%, 100%);
-        padding: 5px 20px;
+        padding: 15px 15px;
         border-radius: 50px;
         color: hsl(212, 27%, 19%);
         font-family: 'Fraunces', serif;
@@ -390,7 +390,7 @@
     @media (max-width:760px) {
         .nav-links .contact-btn {
             background-color: hsl(51, 100%, 49%);
-            padding: 5px 20px;
+            padding: 15px 15px;
             border-radius: 50px;
             color: black;
             font-family: 'Fraunces', serif;
