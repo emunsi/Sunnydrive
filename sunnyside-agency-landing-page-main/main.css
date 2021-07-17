@@ -309,9 +309,14 @@
         display: flex;
     }
     
-    .footer-links h4 {
+    .footer-links a {
         color: hsl(167, 40%, 24%);
         font-family: 'Barlow', sans-serif;
+        text-decoration: none;
+    }
+    
+    .footer-links a:hover {
+        color: hsl(0, 0%, 100%);
     }
     
     .footer-col {
@@ -335,6 +340,10 @@
         flex-direction: row;
         padding: 10px;
         position: relative;
+    }
+    
+    .icons img:hover {
+        color: hsl(0, 0%, 100%);
     }
     /*--------------Media Queries ---------------*/
     
